@@ -5,6 +5,8 @@ import (
 	"errors"
 	"fmt"
 
+	_ "github.com/mattn/go-sqlite3"
+
 	"url-shortener/internal/storage"
 )
 
